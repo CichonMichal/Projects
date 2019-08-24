@@ -1,0 +1,192 @@
+body {
+    background-image: url(../img/dark_geometric.png);
+}
+.link {
+    text-decoration: none;
+    color: white;
+}
+.link:hover {
+    text-decoration: none;
+    color: white;
+}
+.btn-hover:hover a {
+    color: #E72C02;
+}
+.banner-image {
+    margin-bottom: 60px;
+    font-family: 'DragonCaps';
+    font-size: 54px;
+    color: #962a12;
+    display: -webkit-inline-box;
+    text-decoration-line: underline;
+    text-decoration-style: dashed;
+    text-shadow: -7px 6px 5px #260B05;
+}
+.container {
+    height: auto;
+    width: 100%;
+    margin-top: 80px;
+    display: block;
+    position: relative;
+    max-width: 1260px;
+}
+.col-sm {
+    padding: 0px 5px;
+}
+.menu-button {
+    text-align: center;
+    width: 100%;
+    background-color: black;
+    color: white;
+    border: 2px solid black;
+    border-radius: 2px;
+    margin: 2px 0px;
+    font-size: 18px;
+    font-weight: 500;
+}
+.body-style {
+    border: 3px solid #111;
+    border-radius: 2px;
+    margin: 10px 5px;
+    background-image: url(../img/dust_scratches.png);
+}
+.main-body {
+    min-height: 800px;
+}
+.side-body {
+    height: 100%;
+    padding: 20px;
+}
+
+/* Formularz Logowania i rejestracja na bocznym panelu */
+.side-body-toggle {
+    text-align: center;
+    width: 50%;
+}
+
+.side-body-link {
+    text-decoration: none;
+    color: black;
+    font-size: 17px;
+    font-weight: 600;
+    cursor: pointer;
+
+    -webkit-transition: all 0.05s ease-in-out;
+    -moz-transition: all 0.05s ease-in-out;
+    -ms-transition: all 0.05s ease-in-out;
+    -o-transition: all 0.05s ease-in-out;
+    transition: all 0.05s ease-in-out;
+}
+.btn-logout {
+    width: 100%;
+    margin: 5px 0px;
+}
+.btn-form {
+    background-color: black;
+    color: white;
+    font-size: 14px;
+    font-weight: 500;
+    cursor: pointer;
+}
+.btn-form:focus {
+    color: #E72C02;
+}
+.btn:focus {
+    box-shadow: none;
+}
+.form-control:focus {
+    -webkit-box-shadow: inset 0px 0px 3px 1px #8f0000;
+    -moz-box-shadow: inset 0px 0px 3px 1px #8f0000;
+    box-shadow: inset 0px 0px 3px 1px #8f0000;
+    border: 0px;
+}
+.forgot-password {
+    color: black;
+}
+.form-group label {
+    color: black;
+}
+.welcome {
+    padding: 20px;
+}
+
+.welcome h1 {
+    color: black;
+    font-size: 32px;
+    margin-bottom: 35px;
+}
+.welcome h2 {
+    font-size: 14px;
+}
+.welcome h3 {
+    font-size: 18px;
+    color: black;
+}
+.error {
+    color: #E72C02;
+}
+textarea {
+    min-height: 125px;
+    max-height: 250px;
+}
+.user-display {
+    border: 3px solid #111;
+    border-radius: 2px;
+    margin: 20px 5px;
+    background-image: url(../img/mini_waves.png);
+    height: auto;
+    padding: 10px 30px;
+    -webkit-box-shadow: -7px 6px 3px -1px rgba(0,0,0,0.26);
+    -moz-box-shadow: -7px 6px 3px -1px rgba(0,0,0,0.26);
+    box-shadow: -7px 6px 3px -1px rgba(0,0,0,0.26);
+}
+.margin {
+    color: black;
+    margin: 15px 0px 40px -10px;
+    font-size: 32px;
+}
+.info {
+    float: left;
+    color: black;
+    font-weight: 500;
+    margin: 10px 0px 20px 0px;
+}
+.strong {
+    color: #E72C02;
+    font-weight: 500;
+}
+@font-face {
+    font-family: 'DragonCaps';
+    src: url('font/eg_dragon_caps-webfont.woff2') format('woff2'),
+         url('font/eg_dragon_caps-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+.announcements {
+    border: 3px solid #333;
+    border-radius: 3px;
+    margin: 20px 5px;
+    background-image: url(../img/cork-wallet.png);
+    height: auto;
+    padding: 10px 30px;
+    -webkit-box-shadow: -7px 6px 3px -1px rgba(0,0,0,0.26);
+    -moz-box-shadow: -7px 6px 3px -1px rgba(0,0,0,0.26);
+    box-shadow: -7px 6px 3px -1px rgba(0,0,0,0.26);
+}
+.faq {
+    border: 3px solid #333;
+    border-radius: 3px;
+    margin: 20px 5px;
+    background-image: url(../img/seamless_paper.png);
+    height: auto;
+    padding: 10px 30px;
+    -webkit-box-shadow: -7px 6px 3px -1px rgba(0,0,0,0.26);
+    -moz-box-shadow: -7px 6px 3px -1px rgba(0,0,0,0.26);
+    box-shadow: -7px 6px 3px -1px rgba(0,0,0,0.26);
+}
+.question {
+    color: #962a12;
+    margin: 15px 0px 30px -10px;
+    font-size: 28px;
+}
